@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='piano2'>
+  <model name='2ndfloor'>
     <pose frame=''>0.281 1.922 0 0 -0 0</pose>
     <link name='Wall_1'>
       <collision name='Wall_1_Collision'>
