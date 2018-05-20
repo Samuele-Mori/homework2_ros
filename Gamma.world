@@ -99,7 +99,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -119,7 +119,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -151,7 +151,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -171,7 +171,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -203,7 +203,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -223,7 +223,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -255,7 +255,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -275,7 +275,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -307,7 +307,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -327,7 +327,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -359,7 +359,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -379,7 +379,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -411,7 +411,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -431,7 +431,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -463,7 +463,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -483,7 +483,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://tableLong/meshes/model.dae</uri>
+                <uri>file://gamma/tableLong.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -1981,28 +1981,6 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='turtlebot3_burger'>
-        <pose frame=''>-3.99987 -6 -0.001006 0 3.3e-05 0.000404</pose>
-        <scale>1 1 1</scale>
-        <link name='base_footprint'>
-          <pose frame=''>-3.99987 -6 -0.001006 0 3.3e-05 0.000404</pose>
-          <velocity>3e-06 0 1.6e-05 -8e-06 -5.6e-05 6e-06</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-        <link name='wheel_left_link'>
-          <pose frame=''>-3.99992 -5.856 0.031998 -1.5708 0.002947 0.000404</pose>
-          <velocity>0 0 3.7e-05 -8e-06 -1.1e-05 6e-06</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-        <link name='wheel_right_link'>
-          <pose frame=''>-3.99981 -6.144 0.031998 -1.5708 0.006436 0.000404</pose>
-          <velocity>1e-06 0 3.6e-05 -1.1e-05 4.4e-05 6e-06</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='wallGlassCabinetCorrect'>
         <pose frame=''>0.795194 -1.71732 1.98725 0 -0 3.13689</pose>
         <scale>1.2 1 1</scale>
@@ -2073,7 +2051,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -2093,7 +2071,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -2125,7 +2103,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -2145,7 +2123,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -2177,7 +2155,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -2197,7 +2175,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -2229,7 +2207,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -2249,7 +2227,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -2281,7 +2259,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -2301,7 +2279,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -2333,7 +2311,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -2353,7 +2331,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -2385,7 +2363,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -2405,7 +2383,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -3826,8 +3804,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://tableShort/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/tableShort.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -3845,8 +3823,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/tableShort/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/tableShort.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -3921,8 +3899,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://tableShort/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/tableShort.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -3940,8 +3918,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/tableShort/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/tableShort.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -4016,8 +3994,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://tableShort/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/tableShort.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4035,8 +4013,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/tableShort/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/tableShort.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -4111,8 +4089,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://tableShort/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/tableShort.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4130,8 +4108,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/tableShort/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/tableShort.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -4206,8 +4184,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://tableShort/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/tableShort.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4225,8 +4203,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/tableShort/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/tableShort.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -4301,8 +4279,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://projectionScreen/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/projectionScreen.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4320,8 +4298,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/projectionScreen/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/projectionScreen.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -4396,8 +4374,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://blackboard/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/blackboard.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4415,8 +4393,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/blackboard/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/blackboard.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -4489,7 +4467,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -4509,7 +4487,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -4541,7 +4519,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -4561,7 +4539,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -4593,7 +4571,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -4613,7 +4591,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -4645,7 +4623,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -4665,7 +4643,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -4697,7 +4675,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -4717,7 +4695,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -4749,7 +4727,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -4769,7 +4747,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -4801,7 +4779,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -4821,7 +4799,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -4853,7 +4831,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -4873,7 +4851,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -4905,7 +4883,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -4925,7 +4903,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -4957,7 +4935,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -4977,7 +4955,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -5009,7 +4987,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -5029,7 +5007,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -5061,7 +5039,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -5081,7 +5059,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -5113,7 +5091,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -5133,7 +5111,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -5165,7 +5143,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -5185,7 +5163,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -5217,7 +5195,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -5237,7 +5215,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://chair/meshes/model.dae</uri>
+                <uri>file://gamma/chair.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -5271,8 +5249,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://doors/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/doors.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5290,8 +5268,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/doors/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/doors.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -5366,8 +5344,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://trashBin/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/trashBin.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5385,8 +5363,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/trashBin/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/trashBin.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -5461,8 +5439,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://trashBin/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/trashBin.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5480,8 +5458,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/trashBin/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/trashBin.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -5556,8 +5534,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://glassCase/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/glassCase.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5575,8 +5553,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/glassCase/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/glassCase.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -5651,8 +5629,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://glassCase/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/glassCase.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5670,8 +5648,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/glassCase/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/glassCase.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -5746,8 +5724,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://glassCase/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/glassCase.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5765,8 +5743,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/glassCase/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/glassCase.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -5841,8 +5819,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://wallGlassCabinet/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/wallGlassCabinet.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5860,8 +5838,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/wallGlassCabinet/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/wallGlassCabinet.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -5936,8 +5914,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://wallGlassCabinet/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/wallGlassCabinet.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -5955,8 +5933,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/wallGlassCabinet/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/wallGlassCabinet.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -6031,8 +6009,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://wallGlassCabinet/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/wallGlassCabinet.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6050,8 +6028,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/wallGlassCabinet/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/wallGlassCabinet.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -6126,8 +6104,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://glassCase/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/glassCase.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6145,8 +6123,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/glassCase/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/glassCase.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -6221,8 +6199,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://wallGlassCabinet/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/wallGlassCabinet.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6240,8 +6218,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/wallGlassCabinet/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/wallGlassCabinet.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -6314,7 +6292,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -6334,7 +6312,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -6366,7 +6344,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -6386,7 +6364,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -6420,8 +6398,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6439,8 +6417,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -6515,8 +6493,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6534,8 +6512,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -6610,8 +6588,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6629,8 +6607,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -6703,7 +6681,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -6723,7 +6701,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -6755,7 +6733,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -6775,7 +6753,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -6809,8 +6787,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6828,8 +6806,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -6904,8 +6882,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6923,8 +6901,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -6999,8 +6977,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -7018,8 +6996,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -7094,8 +7072,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -7113,8 +7091,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -7189,8 +7167,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -7208,8 +7186,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -7282,7 +7260,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -7302,7 +7280,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -7334,7 +7312,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -7354,7 +7332,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -7386,7 +7364,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -7406,7 +7384,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -7438,7 +7416,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -7458,7 +7436,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -7490,7 +7468,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -7510,7 +7488,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -7542,7 +7520,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -7562,7 +7540,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -7596,8 +7574,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -7615,8 +7593,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -7691,8 +7669,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -7710,8 +7688,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -7784,7 +7762,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -7804,7 +7782,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -7836,7 +7814,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -7856,7 +7834,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -7888,7 +7866,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -7908,7 +7886,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -7940,7 +7918,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -7960,7 +7938,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -7992,7 +7970,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -8012,7 +7990,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -8044,7 +8022,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -8064,7 +8042,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -8096,7 +8074,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -8116,7 +8094,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -8148,7 +8126,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -8168,7 +8146,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -8202,8 +8180,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -8221,8 +8199,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -8297,8 +8275,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -8316,8 +8294,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -8392,8 +8370,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -8411,8 +8389,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -8485,7 +8463,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -8505,7 +8483,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -8537,7 +8515,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -8557,7 +8535,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -8589,7 +8567,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -8609,7 +8587,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -8641,7 +8619,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -8661,7 +8639,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -8693,7 +8671,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -8713,7 +8691,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -8745,7 +8723,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -8765,7 +8743,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -8797,7 +8775,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -8817,7 +8795,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -8849,7 +8827,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -8869,7 +8847,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -8901,7 +8879,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -8921,7 +8899,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -8955,8 +8933,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -8974,8 +8952,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -9050,8 +9028,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -9069,8 +9047,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -9145,8 +9123,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -9164,8 +9142,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -9240,8 +9218,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -9259,8 +9237,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -9335,8 +9313,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -9354,8 +9332,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -9430,8 +9408,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -9449,8 +9427,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -9523,7 +9501,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -9543,7 +9521,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -9575,7 +9553,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -9595,7 +9573,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -9627,7 +9605,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -9647,7 +9625,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -9679,7 +9657,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -9699,7 +9677,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -9731,7 +9709,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -9751,7 +9729,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -9783,7 +9761,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -9803,7 +9781,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -9835,7 +9813,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -9855,7 +9833,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -9887,7 +9865,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -9907,7 +9885,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -9939,7 +9917,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -9959,7 +9937,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -9993,8 +9971,8 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -10012,8 +9990,8 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ubuntu/model_editor_models/case/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
+              <uri>file://gamma/case.dae</uri>
+                <scale>1 1 1</scale>
             </mesh>
           </geometry>
           <surface>
@@ -10086,7 +10064,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -10106,7 +10084,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://keyboard/meshes/model.dae</uri>
+                <uri>file://gamma/keyboard.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -10138,7 +10116,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
             <max_contacts>10</max_contacts>
@@ -10158,7 +10136,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>model://monitor/meshes/monitor.dae</uri>
+                <uri>file://gamma/monitor.dae</uri>
               </mesh>
             </geometry>
           </visual>
@@ -10170,493 +10148,6 @@
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose frame=''>5.08222 -3.29908 0.801925 -0.000474 -0.021194 1.59317</pose>
-    </model>
-    <model name='turtlebot3_burger'>
-      <link name='base_footprint'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
-        <inertial>
-          <pose frame=''>-0.066194 0 0.011097 0 -0 0</pose>
-          <mass>1.03</mass>
-          <inertia>
-            <ixx>0.0132274</ixx>
-            <ixy>0</ixy>
-            <ixz>-1.15194e-05</ixz>
-            <iyy>0.0133959</iyy>
-            <iyz>0</iyz>
-            <izz>0.0133323</izz>
-          </inertia>
-        </inertial>
-        <collision name='base_footprint_fixed_joint_lump__base_link_collision'>
-          <pose frame=''>-0.064 0 0.058 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.265 0.265 0.089</size>
-            </box>
-          </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <collision name='base_footprint_fixed_joint_lump__camera_link_collision_1'>
-          <pose frame=''>0.067 0 0.114 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.008 0.13 0.022</size>
-            </box>
-          </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <collision name='base_footprint_fixed_joint_lump__caster_back_left_link_collision_2'>
-          <pose frame=''>-0.177 0.064 0.006 -1.5708 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.03 0.01 0.02</size>
-            </box>
-          </geometry>
-          <surface>
-            <contact>
-              <ode>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>1</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>0</mu>
-                <mu2>0</mu2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <collision name='base_footprint_fixed_joint_lump__caster_back_right_link_collision_3'>
-          <pose frame=''>-0.177 -0.064 0.006 -1.5708 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.03 0.01 0.02</size>
-            </box>
-          </geometry>
-          <surface>
-            <contact>
-              <ode>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>1</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>0</mu>
-                <mu2>0</mu2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <collision name='base_footprint_fixed_joint_lump__base_scan_collision_4'>
-          <pose frame=''>-0.064 0 0.131 0 -0 0</pose>
-          <geometry>
-            <cylinder>
-              <length>0.0408</length>
-              <radius>0.07</radius>
-            </cylinder>
-          </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <visual name='base_footprint_fixed_joint_lump__base_link_visual'>
-          <pose frame=''>-0.064 0 0.01 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <scale>1 1 1</scale>
-              <uri>/home/ubuntu/catkin_ws/src/turtlebot3/turtlebot3_description/meshes/bases/waffle_base.stl</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Grey</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <visual name='base_footprint_fixed_joint_lump__camera_link_visual_1'>
-          <pose frame=''>0.064 -0.065 0.104 1.5708 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>1 1 1</scale>
-              <uri>/home/ubuntu/catkin_ws/src/turtlebot3/turtlebot3_description/meshes/sensors/r200.dae</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <uri>__default__</uri>
-              <name>__default__</name>
-            </script>
-          </material>
-        </visual>
-        <visual name='base_footprint_fixed_joint_lump__base_scan_visual_2'>
-          <pose frame=''>-0.064 0 0.131 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <scale>1 1 1</scale>
-              <uri>/home/ubuntu/catkin_ws/src/turtlebot3/turtlebot3_description/meshes/sensors/lds.stl</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/DarkGrey</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <velocity_decay/>
-        <velocity_decay/>
-        <sensor name='realsense_R200' type='depth'>
-          <always_on>1</always_on>
-          <visualize>0</visualize>
-          <camera name='__default__'>
-            <horizontal_fov>1.02974</horizontal_fov>
-            <image>
-              <width>1920</width>
-              <height>1080</height>
-              <format>R8G8B8</format>
-            </image>
-            <depth_camera>
-              <output>depths</output>
-            </depth_camera>
-            <clip>
-              <near>0.02</near>
-              <far>300</far>
-            </clip>
-          </camera>
-          <plugin name='camera_controller' filename='libgazebo_ros_openni_kinect.so'>
-            <pose>0.01 0 0 0 0 0</pose>
-            <alwaysOn>true</alwaysOn>
-            <updateRate>30.0</updateRate>
-            <cameraName>camera</cameraName>
-            <frameName>camera_link</frameName>
-            <imageTopicName>rgb/image_raw</imageTopicName>
-            <depthImageTopicName>depth/image_raw</depthImageTopicName>
-            <pointCloudTopicName>depth/points</pointCloudTopicName>
-            <cameraInfoTopicName>rgb/camera_info</cameraInfoTopicName>
-            <depthImageCameraInfoTopicName>depth/camera_info</depthImageCameraInfoTopicName>
-            <pointCloudCutoff>0.4</pointCloudCutoff>
-            <hackBaseline>0.07</hackBaseline>
-            <distortionK1>0.0</distortionK1>
-            <distortionK2>0.0</distortionK2>
-            <distortionK3>0.0</distortionK3>
-            <distortionT1>0.0</distortionT1>
-            <distortionT2>0.0</distortionT2>
-            <CxPrime>0.0</CxPrime>
-            <Cx>0.0</Cx>
-            <Cy>0.0</Cy>
-            <focalLength>0.0</focalLength>
-            <robotNamespace>/</robotNamespace>
-          </plugin>
-          <pose frame=''>0.064 -0.065 0.104 0 -0 0</pose>
-        </sensor>
-        <velocity_decay/>
-        <velocity_decay/>
-        <velocity_decay/>
-        <sensor name='imu' type='imu'>
-          <always_on>1</always_on>
-          <update_rate>50</update_rate>
-          <visualize>0</visualize>
-          <pose frame=''>0 0 0.078 0 -0 0</pose>
-        </sensor>
-        <gravity>1</gravity>
-        <velocity_decay/>
-        <self_collide>0</self_collide>
-        <sensor name='lds_lfcd_sensor' type='ray'>
-          <visualize>0</visualize>
-          <update_rate>1800</update_rate>
-          <ray>
-            <scan>
-              <horizontal>
-                <samples>360</samples>
-                <resolution>1</resolution>
-                <min_angle>0</min_angle>
-                <max_angle>6.28</max_angle>
-              </horizontal>
-              <vertical>
-                <samples>1</samples>
-                <min_angle>0</min_angle>
-                <max_angle>0</max_angle>
-              </vertical>
-            </scan>
-            <range>
-              <min>0.12</min>
-              <max>3.5</max>
-              <resolution>0.015</resolution>
-            </range>
-            <noise>
-              <type>gaussian</type>
-              <mean>0</mean>
-              <stddev>0.01</stddev>
-            </noise>
-          </ray>
-          <plugin name='gazebo_ros_lds_lfcd_controller' filename='libgazebo_ros_laser.so'>
-            <topicName>scan</topicName>
-            <frameName>base_scan</frameName>
-            <robotNamespace>/</robotNamespace>
-          </plugin>
-          <pose frame=''>-0.064 0 0.131 0 -0 0</pose>
-        </sensor>
-        <kinematic>0</kinematic>
-      </link>
-      <link name='wheel_left_link'>
-        <pose frame=''>0 0.144 0.033 -1.5708 0 0</pose>
-        <inertial>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <mass>0.01</mass>
-          <inertia>
-            <ixx>0.001</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.001</iyy>
-            <iyz>0</iyz>
-            <izz>0.001</izz>
-          </inertia>
-        </inertial>
-        <collision name='wheel_left_link_collision'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <geometry>
-            <cylinder>
-              <length>0.018</length>
-              <radius>0.033</radius>
-            </cylinder>
-          </geometry>
-          <surface>
-            <contact>
-              <ode>
-                <kp>500000</kp>
-                <kd>10</kd>
-                <max_vel>0.1</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>10</mu>
-                <mu2>10</mu2>
-                <fdir1>1 0 0</fdir1>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <visual name='wheel_left_link_visual'>
-          <pose frame=''>0 0 0 1.5708 -0 0</pose>
-          <geometry>
-            <mesh>
-              <scale>1 1 1</scale>
-              <uri>/home/ubuntu/catkin_ws/src/turtlebot3/turtlebot3_description/meshes/wheels/left_tire.stl</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/DarkGrey</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <gravity>1</gravity>
-        <velocity_decay/>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-      </link>
-      <joint name='wheel_left_joint' type='revolute'>
-        <child>wheel_left_link</child>
-        <parent>base_footprint</parent>
-        <axis>
-          <xyz>0 1 0</xyz>
-          <limit>
-            <lower>-1e+16</lower>
-            <upper>1e+16</upper>
-          </limit>
-          <dynamics>
-            <spring_reference>0</spring_reference>
-            <spring_stiffness>0</spring_stiffness>
-          </dynamics>
-          <use_parent_model_frame>1</use_parent_model_frame>
-        </axis>
-      </joint>
-      <link name='wheel_right_link'>
-        <pose frame=''>0 -0.144 0.033 -1.5708 0 0</pose>
-        <inertial>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <mass>0.01</mass>
-          <inertia>
-            <ixx>0.001</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.001</iyy>
-            <iyz>0</iyz>
-            <izz>0.001</izz>
-          </inertia>
-        </inertial>
-        <collision name='wheel_right_link_collision'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <geometry>
-            <cylinder>
-              <length>0.018</length>
-              <radius>0.033</radius>
-            </cylinder>
-          </geometry>
-          <surface>
-            <contact>
-              <ode>
-                <kp>500000</kp>
-                <kd>10</kd>
-                <max_vel>0.1</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>10</mu>
-                <mu2>10</mu2>
-                <fdir1>1 0 0</fdir1>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <visual name='wheel_right_link_visual'>
-          <pose frame=''>0 0 0 1.5708 -0 0</pose>
-          <geometry>
-            <mesh>
-              <scale>1 1 1</scale>
-              <uri>/home/ubuntu/catkin_ws/src/turtlebot3/turtlebot3_description/meshes/wheels/right_tire.stl</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/DarkGrey</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <gravity>1</gravity>
-        <velocity_decay/>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-      </link>
-      <joint name='wheel_right_joint' type='revolute'>
-        <child>wheel_right_link</child>
-        <parent>base_footprint</parent>
-        <axis>
-          <xyz>0 1 0</xyz>
-          <limit>
-            <lower>-1e+16</lower>
-            <upper>1e+16</upper>
-          </limit>
-          <dynamics>
-            <spring_reference>0</spring_reference>
-            <spring_stiffness>0</spring_stiffness>
-          </dynamics>
-          <use_parent_model_frame>1</use_parent_model_frame>
-        </axis>
-      </joint>
-      <plugin name='turtlebot3_waffle_controller' filename='libgazebo_ros_diff_drive.so'>
-        <commandTopic>cmd_vel</commandTopic>
-        <odometryTopic>odom</odometryTopic>
-        <odometryFrame>odom</odometryFrame>
-        <robotBaseFrame>base_footprint</robotBaseFrame>
-        <publishWheelTF>false</publishWheelTF>
-        <publishWheelJointState>true</publishWheelJointState>
-        <legacyMode>false</legacyMode>
-        <updateRate>100</updateRate>
-        <leftJoint>wheel_left_joint</leftJoint>
-        <rightJoint>wheel_right_joint</rightJoint>
-        <wheelSeparation>0.287</wheelSeparation>
-        <wheelDiameter>0.066</wheelDiameter>
-        <wheelAcceleration>1</wheelAcceleration>
-        <wheelTorque>10</wheelTorque>
-        <robotNamespace>/</robotNamespace>
-      </plugin>
-      <static>0</static>
-      <plugin name='imu_plugin' filename='libgazebo_ros_imu.so'>
-        <alwaysOn>true</alwaysOn>
-        <topicName>imu</topicName>
-        <serviceName>imu_service</serviceName>
-        <gaussianNoise>0.0</gaussianNoise>
-        <updateRate>100.0</updateRate>
-        <imu>
-          <noise>
-            <type>gaussian</type>
-            <rate>
-              <mean>0.0</mean>
-              <stddev>2e-4</stddev>
-              <bias_mean>0.0000075</bias_mean>
-              <bias_stddev>0.0000008</bias_stddev>
-            </rate>
-            <accel>
-              <mean>0.0</mean>
-              <stddev>1.7e-2</stddev>
-              <bias_mean>0.1</bias_mean>
-              <bias_stddev>0.001</bias_stddev>
-            </accel>
-          </noise>
-        </imu>
-        <robotNamespace>/</robotNamespace>
-        <bodyName>base_footprint</bodyName>
-        <xyzOffset>0 0 -0.078</xyzOffset>
-        <rpyOffset>0 -0 0</rpyOffset>
-      </plugin>
-      <pose frame=''>-4 -6 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>
