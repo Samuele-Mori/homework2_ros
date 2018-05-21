@@ -49,13 +49,28 @@ roslaunch turtlebot3_gazebo turtlebot3_gamma.launch
 ## Mappa
 
 Per creare la mappa del mondo abbiamo utilizzato i seguenti comandi:
+
+Terminale1, avvio mondo:
 ```
 roslaunch turtlebot3_gazebo turtlebot3_gamma.launch
+```
+Terminale2, avvio SLAM (Simultaneous Localization and Mapping):
+```
 roslaunch turtlebot3_slam turtlebot3_slam.launch
+```
+Terminale3, avvio RViz:
+```
 rosrun rviz rviz -d `rospack find turtlebot3_slam`rviz/turtlebot3_slam.rviz
+```
+Terminale4, avvio teleop:
+```
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
+Terminale5, creazione mappa:
+```
 rosrun map_server map_saver -f ~/map
 ```
+
 ![](media/map.png)
 
 ## Video
