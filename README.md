@@ -18,11 +18,10 @@ E’ necessario fornire nel file README.md un link al video prodotto, che deve e
 Abbiamo deciso di rappresentare una parte del dipartimento di informatica (Ca' Vignal 2), più precisamente il laboratorio Gamma ed una parte del corridoio.
 Per la costruzione dei muri abbiamo preso come riferimento la piantina del dipartimento, notando però delle inesattezze sulle misure. Per la disposizione degli interni abbiamo reperito tutti i modelli su [SketchUp 3D Wharehouse](https://3dwarehouse.sketchup.com/index.html) come consigliato nei tutorial sul software Gazebo. Altre modifiche relative alle dimensioni di questi sono state fatte direttamente in Gazebo.
 
-Componenti gruppo di progetto:
+## Attività
 * Andrea Benini (composizione dei modelli nel mondo, creazione launcher, registrazione/editing video)
 * Samuele Mori (costruzione della struttura del mondo, creazione script, realizzazione mappa)
 
-[attività collettiva]
 
 ![Screenshot](media/world1.png)
 
