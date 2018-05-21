@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cp Gamma.world ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/.
+cp gamma.world ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/.
 cp turtlebot3_gamma.launch ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/launch/.
 cp -r gamma ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/.
 
