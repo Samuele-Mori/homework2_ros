@@ -11,7 +11,7 @@ b. una ricostruzione del circuito TurtleBot3 auto race
 2. Generare e salvare una mappa dello scenario creato al punto precedente utilizzando il robot Turtlebot3 virtuale
 3. Salvare in un breve video i dati che vengono visualizzati tramite Rviz quando il robot viene inviato, con il comando 2D Nav Goal, in una posizione del mondo virtuale. Il video deve contenere i riferimenti all’autore/agli autori
 
-E’ necessario fornire nel file README.md un link al video prodotto, che deve essere facilmente scaricabile
+È necessario fornire nel file README.md un link al video prodotto, che deve essere facilmente scaricabile
 
 ## Scelte progettuali
 
@@ -22,7 +22,7 @@ Per la costruzione dei muri abbiamo preso come riferimento la piantina del dipar
 * Andrea Benini (composizione dei modelli nel mondo, creazione launcher, registrazione/editing video)
 * Samuele Mori (costruzione della struttura del mondo, creazione script, realizzazione mappa)
 
-La maggior parte del lavoro è stato svolto in coppia sulla stessa macchina, rendendo difficile la distinzione delle attività.
+La maggior parte del lavoro è stato svolto in coppia sulla stessa macchina, rendendo difficile la suddivisione delle attività.
 
 ## Immagini gamma.world
 
@@ -73,7 +73,7 @@ rosrun map_server map_saver -f ~/map
 
 ![](media/map.png)
 
-## Video
+## Video navigazione autonoma
 
 [Link al video](https://raw.githubusercontent.com/Samu27/homework2_ros/master/media/video.mp4)
 
