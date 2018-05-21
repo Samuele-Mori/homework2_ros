@@ -19,10 +19,10 @@ Abbiamo deciso di rappresentare una parte del dipartimento di informatica (Ca' V
 Per la costruzione dei muri abbiamo preso come riferimento la piantina del dipartimento, notando però delle inesattezze sulle misure. Per la disposizione degli interni abbiamo reperito tutti i modelli su [SketchUp 3D Wharehouse](https://3dwarehouse.sketchup.com/index.html) come consigliato nei tutorial sul software Gazebo. Altre modifiche relative alle dimensioni di questi sono state fatte direttamente in Gazebo.
 
 Componenti gruppo di progetto:
-* Andrea Benini
-* Samuele Mori
+* Andrea Benini (composizione dei modelli nel mondo, creazione launcher, registrazione/editing video)
+* Samuele Mori (costruzione della struttura del mondo, creazione script, realizzazione mappa)
 
-[attività individuale]
+[attività collettiva]
 
 [foto mondo]
 
