@@ -46,7 +46,11 @@ roslaunch turtlebot3_gazebo turtlebot3_gamma.launch
 
 Per creare la mappa del mondo abbiamo utilizzato i seguenti comandi:
 ```
-
+roslaunch turtlebot3_gazebo turtlebot3_gamma.launch
+roslaunch turtlebot3_slam turtlebot3_slam.launch
+rosrun rviz rviz -d `rospack find turtlebot3_slam`rviz/turtlebot3_slam.rviz
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+rosrun map_server map_saver -f ~/map
 ```
 [foto mappa]
 
