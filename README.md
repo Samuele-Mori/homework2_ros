@@ -55,7 +55,8 @@ rosrun map_server map_saver -f ~/map
 ![](media/map.png)
 
 ## Video
-[video]
+
+[Link al video](https://raw.githubusercontent.com/Samu27/homework2_ros/master/media/video.mp4)
 
 ## Autori
 
