@@ -52,7 +52,7 @@ rosrun rviz rviz -d `rospack find turtlebot3_slam`rviz/turtlebot3_slam.rviz
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 rosrun map_server map_saver -f ~/map
 ```
-[foto mappa]
+![](media/map.png)
 
 ## Video
 [video]
