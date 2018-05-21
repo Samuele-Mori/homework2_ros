@@ -24,7 +24,9 @@ Componenti gruppo di progetto:
 
 [attività collettiva]
 
-[foto mondo]
+![Screenshot](media/world1.png)
+
+![Screenshot](media/world2.png)
 
 ## Installazione e configurazione
 
