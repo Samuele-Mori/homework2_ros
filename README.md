@@ -22,6 +22,7 @@ Per la costruzione dei muri abbiamo preso come riferimento la piantina del dipar
 * Andrea Benini (composizione dei modelli nel mondo, creazione launcher, registrazione/editing video)
 * Samuele Mori (costruzione della struttura del mondo, creazione script, realizzazione mappa)
 
+## Immagini gamma.world
 
 ![Screenshot](media/world1.png)
 
