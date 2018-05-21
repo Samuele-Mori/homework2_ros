@@ -21,6 +21,7 @@ Per la costruzione dei muri abbiamo preso come riferimento la piantina del dipar
 ## Attività
 * Andrea Benini (composizione dei modelli nel mondo, creazione launcher, registrazione/editing video)
 * Samuele Mori (costruzione della struttura del mondo, creazione script, realizzazione mappa)
+
 La maggior parte del lavoro è stato svolto in coppia sulla stessa macchina, rendendo difficile la distinzione delle attività.
 
 ## Immagini gamma.world
