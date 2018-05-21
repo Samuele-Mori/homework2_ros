@@ -1562,10 +1562,10 @@
         </model>
       </model>
       <model name='doorsCorrect'>
-        <pose frame=''>2.49937 -2.18151 0 0 -0 0</pose>
+        <pose frame=''>3.02434 -2.18151 0 0 -0 0</pose>
         <scale>1.35 1 1.22</scale>
         <link name='link'>
-          <pose frame=''>1.88818 -2.18151 0 0 -0 0</pose>
+          <pose frame=''>2.41314 -2.18151 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -10076,7 +10076,7 @@
           <geometry>
             <mesh>
               <uri>file://gamma/doors.dae</uri>
-              <scale>1 1 1</scale>
+              <scale>1.35 1 1.22</scale>
             </mesh>
           </geometry>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -10095,7 +10095,7 @@
           <geometry>
             <mesh>
               <uri>file://gamma/doors.dae</uri>
-              <scale>1 1 1</scale>
+              <scale>1.35 1 1.22</scale>
             </mesh>
           </geometry>
           <surface>
