@@ -1,6 +1,6 @@
-# Homework 2 - Corso di Laboratorio Ciberfisico
+# Homework 2 - Laboratorio Ciberfisico
 
-Secondo esercizio del corso Laboratorio Ciberfisico, Università di Verona.
+Secondo homework del corso Laboratorio Ciberfisico, Università degli studi di Verona.
 
 ## Consegna
 
